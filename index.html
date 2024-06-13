@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="format-detection" content="telephone=no">
+   <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <style>body{opacity: 0;}</style>
+   <title>Tattoo Salon</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header" data-scroll="20">
+         <div class="header__container _anim-items _anim-no-hide">
+            <div class="header__content">
+               <div class="header__icon header__icon--mobile _anim-items _anim-no-hide">
+                  <img src="img/icons/star-icon.svg" alt="Star">
+               </div>
+               <div class="header__menu menu">
+                  <div class="menu__icon">
+                     <span></span>
+                  </div>
+                  <nav class="menu__body">
+                     <div class="menu__group menu__group--first _anim-items _anim-no-hide">
+                        <ul class="menu__list">
+                           <li class="menu__item">
+                              <a href="#" class="menu__link link">Home Page</a>
+                           </li>
+                           <li class="menu__item">
+                              <a href="#" class="menu__link link">PORTFOLIO</a>
+                           </li>
+                           <li class="menu__item">
+                              <a href="#" class="menu__link link">about us</a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="header__icon header__icon--desktop _anim-items _anim-no-hide">
+                        <img src="img/icons/star-icon.svg" alt="Star">
+                     </div>
+                     <div class="menu__group menu__group--second _anim-items _anim-no-hide">
+                        <ul class="menu__list">
+                           <li class="menu__item">
+                              <a href="#" class="menu__link link">Inquiries</a>
+                           </li>
+                           <li class="menu__item">
+                              <a href="#" class="menu__link link">Pricings</a>
+                           </li>
+                           <li class="menu__item">
+                              <a href="#" class="menu__link link">challenges</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+      <main class="page">
+         <section class="page__main main">
+            <div class="main__items" data-prlx-mouse-wrapper>
+               <div class="main__container">
+                  <div class="main__content">
+                     <h1 class="main__title" data-prlx-mouse>
+                        Body paintings that <span>Defies</span> Your Soul
+                     </h1>
+                     <button type="button" class="main__button">
+                        <span>BOOK A VISIT</span>
+                        <svg class="main__button--desktop" width="320" height="80" viewBox="0 0 320 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M19 32C19 16.9151 19 9.37258 23.6863 4.68629C28.3726 0 35.9151 0 51 0H283.821C284.916 0 285.463 0 285.926 0.0268073C294.034 0.496736 300.503 6.96637 300.973 15.0742C301 15.5367 301 16.0843 301 17.1794C301 17.8645 301 18.207 301.013 18.5258C301.23 23.9812 304.215 28.9491 308.929 31.7031C309.205 31.8641 309.507 32.025 310.112 32.3467L314.185 34.5132C317.363 36.2035 318.951 37.0486 319.525 38.1426C320.135 39.3058 320.135 40.6942 319.525 41.8574C318.951 42.9514 317.363 43.7965 314.185 45.4868L310.112 47.6533C309.507 47.975 309.205 48.1359 308.929 48.2968C304.215 51.0509 301.23 56.0188 301.013 61.4742C301 61.793 301 62.1355 301 62.8206C301 63.9157 301 64.4633 300.973 64.9258C300.503 73.0336 294.034 79.5033 285.926 79.9732C285.463 80 284.916 80 283.821 80H51.0001C35.9151 80 28.3726 80 23.6863 75.3137C19 70.6274 19 63.0849 19 48V32Z" fill="#DB9F6A"/>
+                           <path d="M9.88831 47.6533L5.81524 45.4868C2.63752 43.7965 1.04867 42.9514 0.475086 41.8574C-0.134762 40.6942 -0.134762 39.3058 0.475086 38.1426C1.04867 37.0486 2.63752 36.2035 5.81524 34.5132L9.8883 32.3467C10.4928 32.0251 10.7956 31.8641 11.071 31.7031C15.7852 28.9491 18.7697 23.9812 18.9873 18.5258C19 18.207 19 17.8645 19 17.1794C19 16.0843 19 15.5367 19.0269 15.0742C19.4968 6.96637 25.9664 0.496736 34.0742 0.0268073C34.5368 0 35.0843 0 36.1795 0H73.5C88.585 0 96.1275 0 100.814 4.68629C105.5 9.37258 105.5 16.9151 105.5 32V48C105.5 63.0849 105.5 70.6274 100.814 75.3137C96.1275 80 88.585 80 73.5 80H36.1795C35.0843 80 34.5368 80 34.0742 79.9732C25.9664 79.5033 19.4968 73.0336 19.0269 64.9258C19 64.4633 19 63.9157 19 62.8206C19 62.1355 19 61.793 18.9873 61.4742C18.7697 56.0188 15.7852 51.0509 11.071 48.2968C10.7956 48.1359 10.4931 47.975 9.88831 47.6533Z" fill="#DB9F6A"/>
+                           <path d="M240.5 0C237.7 57.6 188.333 77.3333 164 80H287V0H240.5Z" fill="url(#paint0_linear_359_76)" fill-opacity="0.2"/>
+                           <path d="M110.5 0C107.7 57.6 58.3333 77.3333 34 80L157 80V0L110.5 0Z" fill="url(#paint1_linear_359_76)" fill-opacity="0.2"/>
+                           <defs>
+                           <linearGradient id="paint0_linear_359_76" x1="199" y1="24" x2="240.5" y2="60" gradientUnits="userSpaceOnUse">
+                           <stop stop-color="#342416"/>
+                           <stop offset="1" stop-color="#342416" stop-opacity="0"/>
+                           </linearGradient>
+                           <linearGradient id="paint1_linear_359_76" x1="69" y1="24" x2="110.5" y2="60" gradientUnits="userSpaceOnUse">
+                           <stop stop-color="#342416"/>
+                           <stop offset="1" stop-color="#342416" stop-opacity="0"/>
+                           </linearGradient>
+                           </defs>
+                        </svg>
+                        <svg class="main__button--mobille" xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80" fill="none">
+                           <path
+                              d="M19 32C19 16.9151 19 9.37258 23.6863 4.68629C28.3726 0 35.9151 0 51 0H283.821C284.916 0 285.463 0 285.926 0.0268073C294.034 0.496736 300.503 6.96637 300.973 15.0742C301 15.5367 301 16.0843 301 17.1794C301 17.8645 301 18.207 301.013 18.5258C301.23 23.9812 304.215 28.9491 308.929 31.7031C309.205 31.8641 309.507 32.025 310.112 32.3467L314.185 34.5132C317.363 36.2035 318.951 37.0486 319.525 38.1426C320.135 39.3058 320.135 40.6942 319.525 41.8574C318.951 42.9514 317.363 43.7965 314.185 45.4868L310.112 47.6533C309.507 47.975 309.205 48.1359 308.929 48.2968C304.215 51.0509 301.23 56.0188 301.013 61.4742C301 61.793 301 62.1355 301 62.8206C301 63.9157 301 64.4633 300.973 64.9258C300.503 73.0336 294.034 79.5033 285.926 79.9732C285.463 80 284.916 80 283.821 80H51.0001C35.9151 80 28.3726 80 23.6863 75.3137C19 70.6274 19 63.0849 19 48V32Z"
+                              fill="#DB9F6A" />
+                           <path
+                              d="M9.88831 47.6533L5.81524 45.4868C2.63752 43.7965 1.04867 42.9514 0.475086 41.8574C-0.134762 40.6942 -0.134762 39.3058 0.475086 38.1426C1.04867 37.0486 2.63752 36.2035 5.81524 34.5132L9.8883 32.3467C10.4928 32.0251 10.7956 31.8641 11.071 31.7031C15.7852 28.9491 18.7697 23.9812 18.9873 18.5258C19 18.207 19 17.8645 19 17.1794C19 16.0843 19 15.5367 19.0269 15.0742C19.4968 6.96637 25.9664 0.496736 34.0742 0.0268073C34.5368 0 35.0843 0 36.1795 0H73.5C88.585 0 96.1275 0 100.814 4.68629C105.5 9.37258 105.5 16.9151 105.5 32V48C105.5 63.0849 105.5 70.6274 100.814 75.3137C96.1275 80 88.585 80 73.5 80H36.1795C35.0843 80 34.5368 80 34.0742 79.9732C25.9664 79.5033 19.4968 73.0336 19.0269 64.9258C19 64.4633 19 63.9157 19 62.8206C19 62.1355 19 61.793 18.9873 61.4742C18.7697 56.0188 15.7852 51.0509 11.071 48.2968C10.7956 48.1359 10.4931 47.975 9.88831 47.6533Z"
+                              fill="#DB9F6A" />
+                        </svg>
+                     </button>
+                     <div class="main__visit visit" data-prlx-mouse>
+                        <div class="visit__clock button--transition">
+                           <img src="img/main/access_time.svg" alt="Clock">
+                        </div>
+                        <div class="visit__content">
+                           <div class="visit__time">
+                              <div class="visit__day">Mon-Fri</div>
+                              <div class="visit__hour">11:00-21:00</div>
+                           </div>
+                           <div class="visit__time">
+                              <div class="visit__day">Sat-Sun</div>
+                              <div class="visit__hour">14:00-20:00</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="main__body">
+                     <div class="main__image">
+                        <img src="img/main/girl.png" alt="Girl">
+                     </div>
+                     <img class="main__image-background" src="img/main/back.svg" alt="Background">
+                     <div class="main__image-content" data-prlx-mouse>
+                        <div class="main__image-line"></div>
+                        <div class="main__card card">
+                           <div class="card__section">
+                              <h4 class="card__title">TIME</h4>
+                              <div class="card__content">2 Weeks</div>
+                           </div>
+                           <div class="card__section">
+                              <h4 class="card__title">PRICE</h4>
+                              <div class="card__content"><span>$</span> 2400.00</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="main__company company">
+               <div class="company__container">
+                  <div class="company__items">
+                     <a href="#" class="company__item _anim-items _anim-no-hide">
+                        <div class="company__logo-mark">
+                           <img src="img/company/logomark-1.svg" alt="Logo">
+                        </div>
+                        <div class="company__logo-type">
+                           <img src="img/company/logotype-1.svg" alt="Company">
+                        </div>
+                     </a>
+                     <a href="#" class="company__item _anim-items _anim-no-hide">
+                        <div class="company__logo-mark company__logo-mark--lightning">
+                           <img src="img/company/logomark-2.png" alt="Logo">
+                        </div>
+                        <div class="company__logo-type">
+                           <img src="img/company/logotype-2.svg" alt="Company">
+                        </div>
+                     </a>
+                     <a href="#" class="company__item _anim-items _anim-no-hide">
+                        <div class="company__logo-mark">
+                           <img src="img/company/logomark-3.png" alt="Logo">
+                        </div>
+                        <div class="company__logo-type company__logo-type--circooles">
+                           <img src="img/company/logotype-3.svg" alt="Company">
+                        </div>
+                     </a>
+                     <a href="#" class="company__item _anim-items _anim-no-hide">
+                        <div class="company__logo-mark">
+                           <img src="img/company/logomark-4.svg" alt="Logo">
+                        </div>
+                        <div class="company__logo-type">
+                           <img src="img/company/logotype-4.svg" alt="Company">
+                        </div>
+                     </a>
+                     <a href="#" class="company__item _anim-items _anim-no-hide">
+                        <div class="company__logo-mark">
+                           <img src="img/company/logomark-5.svg" alt="Logo">
+                        </div>
+                        <div class="company__logo-type">
+                           <img src="img/company/logotype-5.svg" alt="Company">
+                        </div>
+                     </a>
+                     <a href="#" class="company__item company__item--mobile _anim-items _anim-no-hide">
+                        <div class="company__logo-mark company__logo-mark--clock">
+                           <img src="img/company/logomark-6.png" alt="Logo">
+                        </div>
+                        <div class="company__logo-type">
+                           <img src="img/company/logotype-6.svg" alt="Company">
+                        </div>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="page__works works">
+            <div class="works__container">
+               <div class="works__items">
+                  <div class="works__item work-card works__item--first">
+                     <h2 class="work-card__title">
+                        Tailored Process will make you scream, but then happy!
+                     </h2>
+                     <div class="work-card__content">
+                        <div class="work-card__image">
+                           <img src="img/works/img-1.png" alt="Image">
+                        </div>
+                        <img src="img/works/img-1-background.png" class="work-card__image-background" alt="Background">
+                     </div>
+                  </div>
+                  <div class="works__item work-item works__item--second">
+                     <div class="work-item__image">
+                        <img src="img/works/img-2.svg" alt="Image">
+                     </div>
+                     <div class="work-item__price"><span>$</span> 2800.00</div>
+                  </div>
+                  <div class="works__item work-card works__item--third">
+                     <div class="work-card__image">
+                        <img src="img/works/img-3.jpg" alt="Image">
+                     </div>
+                     <div class="work-card__content">
+                        <h2 class="work-card__title">
+                           Highest rated Tatoo Club in the California.
+                        </h2>
+                        <div class="work-card__text">
+                           <p>
+                              Don’t hesitate. No one has ever regreted the their tatoos! Contact us now, and we’ll help
+                              you!
+                           </p>
+                        </div>
+                        <button class="work-card__button button button--transition" type="button">
+                           CONTACT US NOW
+                        </button>
+                     </div>
+                  </div>
+                  <div class="works__item work-item works__item--fourth">
+                     <div class="work-item__image">
+                        <img src="img/works/img-4.svg" alt="Image">
+                     </div>
+                     <div class="work-item__price"><span>$</span> 1500.00</div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="page__clients clients">
+            <div class="clients__container" data-prlx-mouse-wrapper>
+               <h2 class="clients__title title" data-prlx-mouse>
+                  What Clients say?!
+               </h2>
+               <div class="swiper image-slider">
+                  <div class="swiper-wrapper image-slider__wrapper">
+                     <div class="swiper-slide image-slider__slide">
+                        <div class="image-slider__image">
+                           <img src="img/clients/star-5.png" alt="Client">
+                        </div>
+                     </div>
+                     <div class="swiper-slide image-slider__slide">
+                        <div class="image-slider__image">
+                           <img src="img/clients/star-2.png" alt="Client">
+                        </div>
+                     </div>
+                     <div class="swiper-slide image-slider__slide">
+                        <div class="image-slider__image">
+                           <img src="img/clients/star-1.png" alt="Client">
+                        </div>
+                     </div>
+                     <div class="swiper-slide image-slider__slide">
+                        <div class="image-slider__image">
+                           <img src="img/clients/star-3.png" alt="Client">
+                        </div>
+                     </div>
+                     <div class="swiper-slide image-slider__slide">
+                        <div class="image-slider__image">
+                           <img src="img/clients/star-4.png" alt="Client">
+                        </div>
+                     </div>
+
+                     <!-- 
+                     <div class="swiper-slide image-slider__slide">
+                        <div class="image-slider__image">
+                           <img src="img/clients/star-1.png" alt="Client">
+                        </div>
+                     </div>
+                     <div class="swiper-slide image-slider__slide">
+                        <div class="image-slider__image">
+                           <img src="img/clients/star-3.png" alt="Client">
+                        </div>
+                     </div>
+                     <div class="swiper-slide image-slider__slide">
+                        <div class="image-slider__image">
+                           <img src="img/clients/star-4.png" alt="Client">
+                        </div>
+                     </div>
+                     <div class="swiper-slide image-slider__slide">
+                        <div class="image-slider__image">
+                           <img src="img/clients/star-5.png" alt="Client">
+                        </div>
+                     </div>
+                     <div class="swiper-slide image-slider__slide">
+                        <div class="image-slider__image">
+                           <img src="img/clients/star-2.png" alt="Client">
+                        </div>
+                     </div> -->
+                  </div>
+               </div>
+               <div class="swiper comment-slider">
+                  <div class="swiper-wrapper comment-slider__wrapper">
+                     <div class="swiper-slide comment-slider__slide">
+                        <div class="comment-slider__comment comment">
+                           <div class="comment__author">Belle Stark</div>
+                           <div class="comment__text">
+                              <p>
+                                 I recently had the pleasure of getting a tattoo at Fighting Star, and I couldn't be
+                                 happier with the entire experience. From start to finish, everything about this tattoo
+                                 shop exceeded my expectations.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide comment-slider__slide">
+                        <div class="comment-slider__comment comment">
+                           <div class="comment__author">Jeremy Stafford</div>
+                           <div class="comment__text">
+                              <p>
+                                 I recently had the pleasure of getting a tattoo at Fighting Star, and I couldn't be
+                                 happier with the entire experience. From start to finish, everything about this tattoo
+                                 shop exceeded my expectations.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide comment-slider__slide">
+                        <div class="comment-slider__comment comment">
+                           <div class="comment__author">Carolina Stones</div>
+                           <div class="comment__text">
+                              <p>
+                                 I recently had the pleasure of getting a tattoo at Fighting Star, and I couldn't be
+                                 happier with the entire experience. From start to finish, everything about this tattoo
+                                 shop exceeded my expectations.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide comment-slider__slide">
+                        <div class="comment-slider__comment comment">
+                           <div class="comment__author">Rosanna Bridges</div>
+                           <div class="comment__text">
+                              <p>
+                                 I recently had the pleasure of getting a tattoo at Fighting Star, and I couldn't be
+                                 happier with the entire experience. From start to finish, everything about this tattoo
+                                 shop exceeded my expectations.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide comment-slider__slide">
+                        <div class="comment-slider__comment comment">
+                           <div class="comment__author">Shawn O'Neill</div>
+                           <div class="comment__text">
+                              <p>
+                                 I recently had the pleasure of getting a tattoo at Fighting Star, and I couldn't be
+                                 happier with the entire experience. From start to finish, everything about this tattoo
+                                 shop exceeded my expectations.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                     <!-- <div class="swiper-slide comment-slider__slide">
+                        <div class="comment-slider__comment comment">
+                           <div class="comment__author">Belle Stark</div>
+                           <div class="comment__text">
+                              <p>
+                                 I recently had the pleasure of getting a tattoo at Fighting Star, and I couldn't be
+                                 happier with the entire experience. From start to finish, everything about this tattoo
+                                 shop exceeded my expectations.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide comment-slider__slide">
+                        <div class="comment-slider__comment comment">
+                           <div class="comment__author">Jeremy Stafford</div>
+                           <div class="comment__text">
+                              <p>
+                                 I recently had the pleasure of getting a tattoo at Fighting Star, and I couldn't be
+                                 happier with the entire experience. From start to finish, everything about this tattoo
+                                 shop exceeded my expectations.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide comment-slider__slide">
+                        <div class="comment-slider__comment comment">
+                           <div class="comment__author">Carolina Stones</div>
+                           <div class="comment__text">
+                              <p>
+                                 I recently had the pleasure of getting a tattoo at Fighting Star, and I couldn't be
+                                 happier with the entire experience. From start to finish, everything about this tattoo
+                                 shop exceeded my expectations.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide comment-slider__slide">
+                        <div class="comment-slider__comment comment">
+                           <div class="comment__author">Rosanna Bridges</div>
+                           <div class="comment__text">
+                              <p>
+                                 I recently had the pleasure of getting a tattoo at Fighting Star, and I couldn't be
+                                 happier with the entire experience. From start to finish, everything about this tattoo
+                                 shop exceeded my expectations.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide comment-slider__slide">
+                        <div class="comment-slider__comment comment">
+                           <div class="comment__author">Shawn O'Neill</div>
+                           <div class="comment__text">
+                              <p>
+                                 I recently had the pleasure of getting a tattoo at Fighting Star, and I couldn't be
+                                 happier with the entire experience. From start to finish, everything about this tattoo
+                                 shop exceeded my expectations.
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+ -->
+                  </div>
+               </div>
+               <div class="swiper-button-next"></div>
+               <div class="swiper-button-prev"></div>
+            </div>
+         </section>
+         <section class="page__questions questions" data-prlx-mouse-wrapper>
+            <div class="questions__container">
+               <h2 class="questions__title title" data-prlx-mouse>F.A.Q.</h2>
+               <ul class="questions__items">
+                  <li class="questions__accordion accordion _anim-items _anim-no-hide">
+                     <button class="accordion__control" aria-expanded="false">
+                        <span class="accordion__question">What is the process?</span>
+                        <span class="accordion__icon"></span>
+                     </button>
+                     <div class="accordion__content" aria-hidden="true">
+                        <p>
+                           The process at our tattoo salon typically involves a consultation with one of our talented artists to discuss your ideas and design preferences.
+                        </p>
+                        <p>
+                           From there, we will work with you to create a custom tattoo design that you love.
+                        </p>
+                        <p>
+                           Our skilled artists can draw a wide variety of tattoos, from traditional to modern styles.
+                           Feel free to reach out to us for more information or to schedule a consultation!
+                        </p>
+                     </div>
+                  </li>
+                  <li class="questions__accordion accordion open _anim-items _anim-no-hide">
+                     <button class="accordion__control" aria-expanded="false">
+                        <span class="accordion__question">How you determine price?</span>
+                        <span class="accordion__icon"></span>
+                     </button>
+                     <div class="accordion__content" aria-hidden="true">
+                        <ol>
+                           <li>
+                              <span>Size:</span> Tattoo prices are often based on the size of the tattoo. Larger tattoos
+                              generally
+                              cost more than smaller ones. Some salons may charge per square inch or have set prices for
+                              different size categories.
+                           </li>
+                           <li>
+                              <span>Complexity:</span> The complexity of the design plays a significant role in pricing.
+                              More
+                              intricate and detailed designs typically require more time and skill, leading to a higher
+                              cost.
+                           </li>
+                           <li>
+                              <span>Color:</span> Tattoos with color typically cost more than black and gray tattoos. Vibrant colors
+                              can require more work and skill to achieve the desired result.
+                           </li>
+                        </ol>
+                     </div>
+                  </li>
+                  <li class="questions__accordion accordion _anim-items _anim-no-hide">
+                     <button class="accordion__control" aria-expanded="false">
+                        <span class="accordion__question">can you draw any tatoos?</span>
+                        <span class="accordion__icon"></span>
+                     </button>
+                     <div class="accordion__content" aria-hidden="true">
+                        <p>
+                           Yes, our talented artists at the tattoo salon are skilled in drawing a wide range of tattoo styles.
+                           Whether you're looking for traditional designs, modern artwork, intricate details, or something completely unique, our artists can work with you to bring your vision to life.
+                        </p>
+                        <p>
+                           Feel free to share your ideas and preferences during a consultation, and we'll do our best to create a tattoo design that you'll love.
+                        </p>
+                     </div>
+                  </li>
+                  <li class="questions__accordion accordion _anim-items _anim-no-hide">
+                     <button class="accordion__control" aria-expanded="false">
+                        <span class="accordion__question">What is your Location?</span>
+                        <span class="accordion__icon"></span>
+                     </button>
+                     <div class="accordion__content" aria-hidden="true">
+                        <p>
+                           As for our location, we are conveniently located at ... 
+                        </p>
+                        <p>
+                           Feel free to stop by or give us a call to schedule an appointment!
+                        </p>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <section class="page__subscribe subscribe">
+            <div class="subscribe__container">
+               <div class="subscribe__items" data-prlx-mouse-wrapper>
+                  <div class="subscribe__image">
+                     <img src="img/envelope.svg" alt="Envelope">
+                  </div>
+                  <div class="subscribe__content">
+                  <h2 class="subscribe__title title" data-prlx-mouse>
+                     Subscribe to our Newsletter
+                  </h2>
+                  <form class="subscribe__form form">
+                     <div class="form__content">
+                        <input type="email" class="form__email-input" name="email" placeholder="Enter your email.." required>
+                        <button type="submit" class="form__button button button--transition">SUBSCRIBE</button>
+                     </div>
+                  </form>
+                  </div>
+                  <img class="subscribe__background" src="img/subscribe-background.svg" alt="Background">
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+         <div class="footer__container">
+            <div class="footer__content _anim-items _anim-no-hide">
+               <div class="footer__icon-container">
+                  <div class="footer__icon">
+                     <img src="img/icons/star-icon.svg" alt="Star">
+                  </div>
+               </div>
+               <div class="footer__lists">
+                  <ul class="footer__list">
+                     <li class="footer__item">
+                        <a href="#" class="footer__link link">Home Page</a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#" class="footer__link link">PORTFOLIO</a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#" class="footer__link link">about us</a>
+                     </li>
+                  </ul>
+                  <ul class="footer__list">
+                     <li class="footer__item">
+                        <a href="#" class="footer__link link">Inquiries</a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#" class="footer__link link">Pricings</a>
+                     </li>
+                     <li class="footer__item">
+                        <a href="#" class="footer__link link">challenges</a>
+                     </li>
+                  </ul>
+               </div>
+               <ul class="footer__social social">
+                  <li class="social__item">
+                     <a href="#" class="social__link">
+                        <img src="img/icons/ft-yt.svg" alt="Youtube">
+                     </a>
+                  </li>
+                  <li class="social__item">
+                     <a href="#" class="social__link">
+                        <img src="img/icons/ft-tw.svg" alt="Twitter">
+                     </a>
+                  </li>
+                  <li class="social__item">
+                     <a href="#" class="social__link">
+                        <img src="img/icons/ft-in.svg" alt="Instagram">
+                     </a>
+                  </li>
+               </ul>
+            </div>
+            <div class="footer__terms terms _anim-items _anim-no-hide">
+               <ul class="terms__list">
+                  <li class="terms__item">
+                     <a href="#" class="terms__link link">Terms & conditions</a>
+                  </li>
+                  <li class="terms__item">
+                     <a href="#" class="terms__link link">privacy policy</a>
+                  </li>
+               </ul>
+               <div class="terms__copy">
+                  © 2023 fIGHTING STAR. All rights reserved.
+               </div>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+   <script src="js/script.min.js"></script>
+</body>
+
+</html>
